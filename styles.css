@@ -1,0 +1,18 @@
+body
+{
+    background-color: lightblue;
+    text-align: center;
+}
+
+.bar
+{
+    background-color: orange;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+h1
+{
+    color: blue;
+}

@@ -1,18 +1,59 @@
-body
-{
-    background-color: lightblue;
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Ensure the body takes at least the full height of the viewport */
+}
+
+.container {
+    width: calc(2/3 * 100vw); /* 2/3 of the viewport width as the container width */
+}
+
+
+header {
+    background-color: #333;
+    color: white;
     text-align: center;
+    padding: 20px;
+    width: 100%;
 }
 
-.bar
-{
-    background-color: orange;
-    border-radius: 5px;
-    margin-bottom: 20px;
+nav {
+    background-color: #555;
     padding: 10px;
+    width: 100%;
 }
 
-h1
-{
-    color: blue;
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a, section a {
+    text-decoration: none;
+    color: #1d8d37; /* Slightly green color */
+}
+
+section {
+    padding: 20px;
+    width: 100%;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
 }
